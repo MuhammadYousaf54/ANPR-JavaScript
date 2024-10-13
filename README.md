@@ -1,32 +1,30 @@
-ANPR Project:-
+Anpr_Project
+This project uses automatic license plates. 
+Authentication using Node.js for (ANPR)
+Integrating Tesseract.js textures 
+For OCR (Optical Character Recognition) 
+It processes images and Search for a license
+and known messages from MongoDB database
 
-This project implements Automatic Number Plate 
-Recognition (ANPR) using Node.js for
-backend integration, Tesseract.js 
-for OCR (Optical Character Recognition). 
-It processes images, detects license plates,
-and saves the recognized text to a 
-MongoDB database
+Project overview :- .
 
-Project Overview:-
-
-The ANPR project captures images of 
-vehicles, extracts the number plates
-using image processing and OCR, and
-stores the recognized plate numbers in 
-a MongoDB database. 
-This solution is ideal for applications 
+ANPR photographed the project 
+car license plate recognizer
+It uses image processing and OCR as well.
+The store remembers the registration number in 
+MongoDB database 
+This solution is suitable for use 
 such as parking management, traffic
-monitoring, and toll collection systems.
+Inspection and toll collection system
 
-Features:-
+feature:-
 
-Image Preprocessing: Converts the image
-to grayscale and applies filters for
-better OCR accuracy.
+Image pre-processing: change the image
+and apply filters to the gray scale
+Excellent OCR accuracy
 
-OCR using Tesseract.js: Recognizes the 
-text from vehicle number plates.
+OCR using Tesseract.js: Learn 
+Message from the license plate
 
 MongoDB Integration: Saves the recognized
 number plates and other related data to 
